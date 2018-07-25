@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1532531361777
+Build-Jdk: 10.0.1
+Built-By: brock
+Bundle-Blueprint: OSGI-INF/blueprint/blueprint.xml
+Bundle-Description: Empty Camel Blueprint Example
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-ManifestVersion: 2
+Bundle-Name: Empty Camel Blueprint Example [FuseCamelJdbc]
+Bundle-SymbolicName: FuseCamelJdbc
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.brokrockatul;uses:="javax.sql,org.springframework.be
+ ans.factory.annotation";version="1.0.0"
+Import-Package: javax.sql,oracle.jdbc.pool,org.osgi.service.blueprint;ve
+ rsion="[1.0.0,2.0.0)",org.springframework.beans.factory.annotation,org.
+ springframework.jdbc.datasource
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.2.0.201605172007

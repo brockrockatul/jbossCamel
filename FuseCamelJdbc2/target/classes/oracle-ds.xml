@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datasources xmlns="http://www.ironjacamar.org/doc/schema">
+ <datasource jndi-name="java:jboss/datasources/New_Generic_JDBC" enabled="true" 
+     use-java-context="true" pool-name="New_Generic_JDBC">
+  <connection-url>jdbc:oracle:thin:@localhost:32769/ORCLCDB.localdomain</connection-url>
+  <driver>ojdbc8.jar</driver>
+  <pool></pool>
+  <security>
+   <user-name>SYS as SYSDBA</user-name>
+   <password>Oradoc_db1</password>
+  </security>
+ </datasource>
+</datasources>

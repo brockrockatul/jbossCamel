@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<mappings xmlns="http://dozermapper.github.io/schema/bean-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dozermapper.github.io/schema/bean-mapping https://dozermapper.github.io/schema/bean-mapping.xsd">
+    <configuration>
+        <wildcard>false</wildcard>
+        <variables>
+            <variable name="ORIGIN">web</variable>
+        </variables>
+    </configuration>
+    <mapping>
+        <class-a>generated_1530887918518.XYZOrder</class-a>
+        <class-b>abcorderschema.AbcOrderSchema</class-b>
+        <field>
+            <a>properties.custId</a>
+            <b>ABCOrder.header.customerNum</b>
+        </field>
+        <field>
+            <a>properties.orderId</a>
+            <b>ABCOrder.header.orderNum</b>
+        </field>
+        <field>
+            <a>properties.priority</a>
+            <b>ABCOrder.header.status</b>
+        </field>
+        <field>
+            <a>properties.lineItems.lineItem</a>
+            <b>ABCOrder.orderItems.item</b>
+        </field>
+    </mapping>
+    <mapping>
+        <class-a>generated_1530887918518.XYZOrder</class-a>
+        <class-b>abcorderschema.Item</class-b>
+    </mapping>
+    <mapping>
+        <class-a>generated_1530887918518.XYZOrder$Properties$LineItems$LineItem</class-a>
+        <class-b>abcorderschema.Item</class-b>
+        <field>
+            <a>itemId</a>
+            <b>itemId</b>
+        </field>
+        <field>
+            <a>cost</a>
+            <b>price</b>
+        </field>
+        <field>
+            <a>amount</a>
+            <b>quantity</b>
+        </field>
+    </mapping>
+</mappings>

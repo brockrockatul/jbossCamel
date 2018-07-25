@@ -1,0 +1,11 @@
+#Wed Jul 25 18:21:31 IST 2018
+ct=jbt
+a=finishWizard
+c=0
+s=0
+d=1532523091372
+v=2.2.102
+vl=How many times the 'Finish' button pressed during the day
+cmp=usage
+cl=org.fusesource.ide.camel.editor.globalconfiguration.beans.wizards.AddGlobalBeanWizard
+l=Wizard class name

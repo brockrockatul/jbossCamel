@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<order><ABCOrder><header><customer-num>ACME-123</customer-num><order-num>ORDER1</order-num><status>GOLD</status></header><order-items><item><e><itemId>PICKLE</itemId><price>2.25</price><quantity>1000</quantity></e><e><itemId>BANANA</itemId><price>1.25</price><quantity>400</quantity></e></item></order-items></ABCOrder></order>

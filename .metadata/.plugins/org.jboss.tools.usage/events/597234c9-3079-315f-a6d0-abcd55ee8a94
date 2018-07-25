@@ -1,0 +1,11 @@
+#Wed Jul 25 18:21:13 IST 2018
+ct=server
+a=new
+c=0
+s=0
+d=1532523073110
+v=3.5.3
+vl=0 \= failed, 1 \= successful
+cmp=server
+cl=org.fusesource.ide.fuseesb.server.70
+l=Server Runtime ID

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths/>
+ <validation>
+  <core validator-id="jboss.cdi.core"/>
+  <el>
+   <linked-el length="59" name="%0" offset="2295" path="%1"/>
+   <linked-el length="59" name="%2" offset="2295" path="%1"/>
+   <linked-el length="59" name="%3" offset="2295" path="%1"/>
+   <linked-el length="9" name="%4" offset="2765" path="%1"/>
+   <linked-el length="9" name="%4" offset="3003" path="%1"/>
+   <linked-el length="9" name="%4" offset="2218" path="%1"/>
+   <linked-el length="59" name="%4" offset="2295" path="%1"/>
+   <linked-el length="25" name="%5" offset="1315" path="%6"/>
+   <linked-el length="25" name="%7" offset="1315" path="%6"/>
+   <linked-el length="16" name="%8" offset="6898" path="%6"/>
+   <linked-el length="59" name="%9" offset="2295" path="%1"/>
+   <linked-el length="25" name="%10" offset="1315" path="%6"/>
+   <linked-el length="25" name="%11" offset="1315" path="%6"/>
+   <linked-el length="16" name="%12" offset="6898" path="%6"/>
+   <linked-el length="59" name="%13" offset="2295" path="%1"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias path="date" value="%0"/>
+  <alias path="MM" value="%2"/>
+  <alias path="dd" value="%3"/>
+  <alias path="body" value="%4"/>
+  <alias path="jboss.fuse.bom" value="%5"/>
+  <alias path="jboss" value="%7"/>
+  <alias path="/FuseCamelMq/pom.xml" value="%6"/>
+  <alias path="camel" value="%8"/>
+  <alias path="yyyy" value="%9"/>
+  <alias path="jboss.fuse" value="%10"/>
+  <alias path="jboss.fuse.bom.version" value="%11"/>
+  <alias path="camel.version" value="%12"/>
+  <alias
+   path="/FuseCamelMq/src/main/resources/OSGI-INF/blueprint/blueprint.xml" value="%1"/>
+  <alias path="date.now" value="%13"/>
+ </aliases>
+ <includes/>
+ <uris/>
+</kb-project>
